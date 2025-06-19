@@ -1,21 +1,3 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-}
-
-.container {
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    margin: 30px auto;
-    border: 5px solid black;
-    padding: 10px;
-    box-sizing: border-box;
-    background: white;
-}
-
-.left-column, .center-column, .right-column {
     border: 3px solid black;
     padding: 15px;
     box-sizing: border-box;
@@ -68,3 +50,4 @@ body {
 .star {
     font-size: 24px;
 }
+
