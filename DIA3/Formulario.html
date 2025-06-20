@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulario de registro - Mi web</title>
 </head>
 <body>
-    <form action="./">
+    <form action="Post">
         <label for="name">Nombre:</label>
         <input type="text" id="name" name="Nombre" required>
         
@@ -14,7 +14,10 @@
         <input type="text" id="Apellido" name="Apellido" required>
         
         <label for="Sexo">Sexo:</label>
-        <input type="text" id="Sexo" name="Sexo" required>
+        <select>
+            <option value="Hombre">Hombre</option>
+            <option value="mujer">mujer</option>
+        </select>
         
         <label for="CorreoElectronico">Correo Electrónico:</label>
         <input type="email" id="CorreoElectronico" name="CorreoElectronico" required>
@@ -26,9 +29,20 @@
         <br>
         <label>
             <input type="checkbox" name="Condicicones" required>
-            Declaro haber leido y aceptar las ondiciones generales del programa y la normativa sobre la proteccion de datos
+            Declaro haber leido y aceptar las Condiciones generales del programa y la normativa sobre la proteccion de datos
         </label>
         <br>
+
+        <label for= "Poblacion">Población:</label>
+            <select name="Poblacion" required>
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Barcelona">Giron</option>
+                <option value="Valencia">Floridablanca</option>
+                <option value="Sevilla">Piedecuesta</option>
+            </select>
+
+        <label for="Descripcion">Descripción:</label>
+            <input type=text id="text" name="text" placeholder="Descripción del usuario" required>
 
         <button type="submit">Enviar</button>
     </form>
