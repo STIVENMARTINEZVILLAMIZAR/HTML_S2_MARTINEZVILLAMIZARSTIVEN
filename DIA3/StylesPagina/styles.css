@@ -1,3 +1,8 @@
+body {
+  background-color: #000; /* Fondo negro */
+  color: white; /* Texto blanco por defecto */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -69,7 +74,7 @@ body, html {
   background-color: #ddd;
 }
 
-/* Search icon top left */
+
 .search-icon {
   position: absolute;
   top: 15px;
@@ -79,7 +84,7 @@ body, html {
   z-index: 10;
 }
 
-/* Login button top right */
+
 .login-button {
   position: absolute;
   top: 15px;
@@ -94,4 +99,146 @@ body, html {
   padding: 0.5rem 1.2rem;
   font-weight: 500;
   cursor: pointer;
+}
+
+.live-section {
+  background-color: #00A8E1;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 25px;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.live-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon-tv {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.live-section p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+  color: #dff6ff;
+}
+
+
+.vod-section {
+  background-color: #00A8E1;
+  color: rgb(236, 230, 230);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 25px;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.vod-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.movie-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.movie-row img {
+  height: 100px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.movie-row img:hover {
+  transform: scale(1.05);
+}
+
+.live-section p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+  color: #dff6ff;
+}
+.devices-section {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.devices-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.devices-section p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.device-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.device {
+  text-align: center;
+  font-size: 2rem;
+  opacity: 0.5;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.device p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.device.selected {
+  font-size: 3rem;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.device i {
+  font-size: 3rem;
+}
+
+
+.footer {
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.85rem;
+  border-top: 1px solid #333;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footer ul li a:hover {
+  color: white;
 }
