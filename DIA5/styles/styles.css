@@ -1,0 +1,12 @@
+
+
+.elemento{
+   background-color: rgbA(42,25,254,0.5);
+   background-image: linear-gradient(yellow,blue,red,gold);
+   /*background-color: transparent;
+*/
+   padding:20px;
+   color: black;
+
+
+}
