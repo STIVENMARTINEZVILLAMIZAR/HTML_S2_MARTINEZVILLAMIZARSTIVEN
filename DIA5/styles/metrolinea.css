@@ -1,5 +1,8 @@
 body {
 background-color: white;
-
-
+height: 1400px;
+width: 800px;
+font-family: arial,Arial, Helvetica, sans-serif;
+top: 200px;
+left:800px;
 }
