@@ -9,28 +9,24 @@ box-sizing:border-box;
 
 body {
 background-color: white;
-height: 196%;
-width: 44%;
 font-family: Arial, Helvetica, sans-serif;
-top: 200px;
-left:800px;
-position: relative;
-justify-content: 
+
 }
 
 .side-bar{
-position: relative;
-background-color: #212020;
-height: 110%;
-width: 800%;
-top: 200px ;
-left:1390px;
-font-family: Arial, Helvetica, sans-serif;
+height: 100%;
+width: 13%;
 display: flex;
-color: white;
-align-items:center;
-flex-direction: column;
+align-items: center;
 justify-content: flex-end;
+gap: 10px;
+
+background-color: black;
+color: white;
+r-index: 1000;
+position: absolute;
+top: 20px;
+right: 20px;
 }
 
 .logo img {
@@ -45,6 +41,8 @@ justify-content: space-between;
 align-items: center;
 height: 196%;
 width:44%;
+padding: 20px 40px;
+border-bottom: 1px solid #ccc;
 
 }
 
@@ -55,4 +53,8 @@ gap: 20px;
 
 }
 
+.Tarjeta{
+height: 497%;
+width: 994%;
 
+}
