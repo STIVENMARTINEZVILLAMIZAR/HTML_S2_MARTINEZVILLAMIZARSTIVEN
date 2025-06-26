@@ -1,9 +1,5 @@
-.LogoMetrolinea{
+body {
+background-color: white;
 
-top: 322px;
-left: 227px;
-width: 884px;
-height: 497px;
-background: transparent url('img/Metrolinea.png') 0% 0% no-repeat padding-box;
-opacity: 1;
+
 }
