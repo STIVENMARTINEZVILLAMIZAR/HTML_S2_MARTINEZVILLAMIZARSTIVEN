@@ -1,9 +1,3 @@
-*{
-margin: 0;
-padding:0;
-box-sizing:border-box;
-
-}
 
 
 
@@ -27,6 +21,7 @@ r-index: 1000;
 position: absolute;
 top: 20px;
 right: 20px;
+margin-left: auto;
 }
 
 .logo img {
@@ -54,7 +49,19 @@ gap: 20px;
 }
 
 .Tarjeta{
-height: 497%;
-width: 994%;
+
+width: 80%:
+max-width:800px;
+margin:auto;
+position: relative;
+}
+
+.boton{
+flex-direction: column;
+display: flex;
+border: none;
+background-color: #D5FF43;
+color: rgb(8, 8, 8);
+position: absolute;
 
 }
