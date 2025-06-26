@@ -6,3 +6,11 @@ font-family: arial,Arial, Helvetica, sans-serif;
 top: 200px;
 left:800px;
 }
+
+.side-bar{
+background-color: #212020;
+height: 110%;
+width: 800%;
+top: 200px ;
+left:1390px;
+}
