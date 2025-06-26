@@ -27,11 +27,18 @@ justify-content: flex-end;
 .logo img {
 height: 196%;
 width:44%;
-
+align-items: end;
 
 }
 
 .header{
 height: 196%;
 width:44%;
+}
+
+.menu{
+display: flex;
+align-items:center;
+gap: 20px;
+
 }
