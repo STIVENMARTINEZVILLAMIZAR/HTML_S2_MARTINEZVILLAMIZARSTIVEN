@@ -46,8 +46,9 @@ body {
 
 .Contenedor2 h1{
 
-      display: flex;  
-
+    display: flex;
+    flex-direction: column;    
+    
 }
 
 
@@ -55,5 +56,22 @@ body {
    
     width: 100vw;
     height: 100vh;
+    position: relative;
+   
+  
 
 }
+
+.titulo1{
+    display: flex;
+    margin: 0;
+    position: relative;
+    bottom: 700px;;
+    }
+
+    .titulo2{
+        display: flex;
+        margin: 0;
+        position: relative;
+        bottom: 200px;;
+        }
