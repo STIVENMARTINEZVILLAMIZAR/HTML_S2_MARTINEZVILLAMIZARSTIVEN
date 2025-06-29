@@ -1,0 +1,59 @@
+body {
+    background-color:black;
+    color: white;
+}
+
+
+.BarraNavegacion{
+    background-color: blue ;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    gap: 100px;
+    }
+
+
+.BarraNavegacion ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 300px;
+    gap: 50px;
+}
+
+.BarraNavegacion h1{
+    position: relative;
+    left: 300px;
+
+}
+
+/*voy a empezar a trabajar en la parte del contendeor e imagen*/
+
+.Contenedor2 {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Contenedor2 h1{
+
+      display: flex;  
+
+}
+
+
+.Contenedor2 img{
+   
+    width: 100vw;
+    height: 100vh;
+
+}
