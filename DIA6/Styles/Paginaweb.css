@@ -5,14 +5,12 @@ body {
 
 
 .BarraNavegacion{
-    background-color: blue ;
+    background-color: rgb(0, 0, 0) ;
     width: 100vw;
-    height: 50px;
+    padding: 10px 50px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between ;
     align-items: center;
-    gap: 100px;
     }
 
 
@@ -20,15 +18,15 @@ body {
 
     list-style: none;
     display: flex;
-    flex-direction: row;
+    margin:0;
+    padding: 0;
     position: relative;
-    right: 300px;
-    gap: 50px;
+    gap: 30px;
 }
 
 .BarraNavegacion h1{
-    position: relative;
-    left: 300px;
+   margin:0;
+   font-size: 24px;
 
 }
 
