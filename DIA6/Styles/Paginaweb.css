@@ -126,7 +126,7 @@ body {
     position: absolute;
     display: flex;
     left: 65%;
-    top: 150%;
+    top: 140%;
     
 }
 
@@ -134,7 +134,7 @@ body {
     position: absolute;
     display: flex;
     left: 65%;
-    top: 165%;
+    top: 150%;
    
 }
 
@@ -144,8 +144,19 @@ background-color: #c28f4d;
   padding: 12px 24px;
   border: none;
   display: block;
-  position: relative;
+  position: absolute;
   display:flex ;
   left: 65%;
+  top: 165%;
   
+}
+
+.linea{
+    border:none;
+    height: 2px;
+    background-color: white;
+    width: 10%;
+    position: absolute;
+    left: 55%;
+    top: 143%;
 }
