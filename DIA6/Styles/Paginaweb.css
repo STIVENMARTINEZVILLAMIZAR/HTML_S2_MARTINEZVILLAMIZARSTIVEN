@@ -53,44 +53,40 @@ body {
 /*voy a empezar a trabajar en la parte del contendeor e imagen*/
 
 .Contenedor2 {
-
+    position: relative;
     width: 100%;
     height: 100vh;
-    object-fit: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
+    overflow: hidden;
 
 }
 
-.Contenedor2 h1{
-
-    display: flex;
-    flex-direction: column;    
-    
-}
 
 
 .Contenedor2 img{
    
     width: 100%;
-    height: 100vh;
-    position: relative;
+    height: 100%;
    object-fit: cover;
   
 
 }
 
-.titulo1{
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    gap: 450px;
     display: flex;
-    margin: 0;
-    position: relative;
-    bottom: 700px;;
-    }
+    flex-direction: column;
+}
 
-    .titulo2{
-        display: flex;
-        margin: 0;
-        position: relative;
-        bottom: 200px;;
-        }
+.texto h1{
+    margin: 0;
+    font-size: 55px;
+    font-weight: bold;
+}
