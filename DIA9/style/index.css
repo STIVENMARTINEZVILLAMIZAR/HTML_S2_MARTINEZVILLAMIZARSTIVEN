@@ -25,8 +25,8 @@ display: grid;
 .item1 img{
     display: grid;
     position: relative;
-    border-radius: 10%;
-    width: 37%;
+    border-radius: 1%;
+    width: 50%;
     
     
 
@@ -36,21 +36,21 @@ display: grid;
 
 display: grid;
 position: relative;
-border-radius: 10%;
-width: 31%;
-left: 38%;
-bottom: 62%;
-height: 120%;
+border-radius: 1%;
+width: 48%;
+left: 52%;
+bottom: 53%;
+height: 103%;
 }
 
 .item3 img{
 
 display: grid;
 position: relative;
-border-radius: 10%;
-width: 37%;
+border-radius: 1%;
+width: 50%;
 right: -0,5rem;
-bottom: 181%;
+bottom: 205%;
 
 }
 
@@ -59,4 +59,5 @@ bottom: 181%;
     position: relative;
     border-radius: 1%;
     width: 100%;
+    bottom: 118%;
 }
