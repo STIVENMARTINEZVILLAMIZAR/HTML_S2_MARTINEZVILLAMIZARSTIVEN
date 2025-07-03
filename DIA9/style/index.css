@@ -16,22 +16,28 @@ body {
 
 display: grid; 
   grid-template-columns: "item1","item2","item3","item4"; 
-  gap: 10px; 
-  padding: 10px;
+  gap: 1%; 
+  padding: 1%;
+ 
 
 }
 
 .item1 img{
     display: grid;
-    border-radius: 10px;
-    width: 30%;
+    position: relative;
+    border-radius: 10%;
+    width: 35%;
+    
+    
 
 }
 
 .item2 img{
 
 display: grid;
-border-radius: 10px;
+position: relative;
+border-radius: 10%;
 width: 30%;
-
+left: 38%;
+bottom: 60%;
 }
