@@ -197,3 +197,15 @@ background-color: #c28f4d;
     top: 20%;
     
 }
+
+.boton3 {
+    background-color: #c28f4d; 
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  display: block;
+  position: absolute;
+  display:flex ;
+  left: 10%;
+  top: 30%;
+}
