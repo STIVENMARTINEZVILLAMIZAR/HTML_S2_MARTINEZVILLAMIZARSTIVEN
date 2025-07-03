@@ -26,7 +26,7 @@ display: grid;
     display: grid;
     position: relative;
     border-radius: 10%;
-    width: 35%;
+    width: 37%;
     
     
 
@@ -37,7 +37,19 @@ display: grid;
 display: grid;
 position: relative;
 border-radius: 10%;
-width: 30%;
+width: 31%;
 left: 38%;
-bottom: 60%;
+bottom: 62%;
+height: 120%;
+}
+
+.item3 img{
+
+display: grid;
+position: relative;
+border-radius: 10%;
+width: 36%;
+right: -0,5rem;
+bottom: 185%;
+
 }
