@@ -19,6 +19,7 @@ body {
     padding: 15px 50px;
     display: flex;
     justify-content: space-between ;
+    justify-content: space-around;
     align-items: center;
     
     }
@@ -33,6 +34,7 @@ body {
     position: relative;
     gap: 30px;
     
+    
 }
 
 .BarraNavegacion h1{
@@ -46,9 +48,10 @@ body {
 
     color: white;
     font-size: 16px;
-   
+    text-decoration: none;
 
 }
+
 
 /*voy a empezar a trabajar en la parte del contendeor e imagen*/
 
@@ -110,8 +113,6 @@ body {
   overflow: hidden;
   height: 100%;
   width: 100%;
-
-
 }
 
 
@@ -151,12 +152,48 @@ background-color: #c28f4d;
   
 }
 
-.linea{
+.linea1{
     border:none;
     height: 2px;
     background-color: white;
     width: 10%;
     position: absolute;
-    left: 55%;
+    left: 53%;
     top: 143%;
+}
+
+/* comenzare a trabajar la otra seccion del contenedor4*/
+
+.contenedor4{
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor4 img{
+   position: relative;
+   display:flex ;
+   flex-direction: row;
+    object-fit: cover;
+    height: 100%;
+    width: 30%;
+    left: 60%;
+}
+
+.texto3 h1{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+}
+
+.texto3 p{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    
 }
